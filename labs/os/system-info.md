@@ -74,6 +74,32 @@ Observe:
 📸 Output:  
 ![Disk Usage](../../assets/screens/disk-usage.png)
 
+
+## Troubleshooting Context
+
+This type of system check is typically performed when a user reports:
+
+- Slow system performance  
+- System freezing or lag  
+- Unknown system specifications  
+- High CPU or memory usage  
+
+### Example Scenario
+
+A user reports that their computer is running slowly.
+
+Steps taken:
+1. Checked system specifications using `systeminfo`
+2. Reviewed active processes in Task Manager
+3. Identified resource-heavy applications
+4. Verified available disk space
+
+This helps determine whether the issue is caused by:
+- insufficient RAM  
+- high CPU usage  
+- background applications  
+- low disk space  
+
 ## Findings
 - Identified system specifications including CPU, RAM, and OS version  
 - Observed active processes and system resource usage  
