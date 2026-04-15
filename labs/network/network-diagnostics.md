@@ -87,6 +87,27 @@ This verifies:
 
 ---
 
+
+## Result Interpretation
+
+### IP Configuration (`ipconfig`)
+- Valid IPv4 address indicates proper network assignment  
+- Missing or incorrect gateway may indicate connectivity issues  
+
+### Ping Tests
+- `127.0.0.1` success confirms local TCP/IP stack is working  
+- Successful ping to external sites confirms internet connectivity  
+- Failure may indicate network or DNS issues  
+
+### Traceroute (`tracert`)
+- Shows the path packets take to the destination  
+- High latency or timeout at a hop may indicate network congestion or failure  
+
+### DNS Lookup (`nslookup`)
+- Confirms domain name resolution  
+- Failure indicates DNS-related issues  
+
+
 ## Troubleshooting Context
 
 This process is used when users report:
